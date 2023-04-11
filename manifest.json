@@ -1,0 +1,20 @@
+{
+  "name": "my website",               // Name of your web app
+  "short_name": "muy website"     // Short name for your app (displayed on home screen)
+  "start_url": "/",                   // Start URL of your app
+  "display": "standalone",            // Display mode (e.g., standalone, fullscreen, browser)
+  "background_color": "#ffffff",      // Background color of your app
+  "theme_color": "#007bff",           // Theme color of your app
+  "icons": [                          // Array of icons for your app
+    {
+      "src": "icon-192x192.png",      // Icon file path (192x192 pixels)
+      "sizes": "192x192",             // Icon size
+      "type": "image/png"            // Icon type
+    },
+    {
+      "src": "icon-512x512.png",      // Icon file path (512x512 pixels)
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
